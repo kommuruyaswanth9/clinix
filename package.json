@@ -1,0 +1,6 @@
+{
+  "name":"clinixflow","version":"1.0.0","private":true,"description":"Separate routine OPD and emergency workflow application","scripts":{"start":"node server.js","test":"node --test test-queue.js","build":"node --check server.js && node --check public/app.js && node --check lib/queue.js","seed":"node seed.js"},"engines":{"node":">=18"}
+}
+
+
+

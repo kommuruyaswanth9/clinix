@@ -1,0 +1,409 @@
+{
+  "patients": [
+    {
+      "id": "demo-1",
+      "token": "MED-GEN-1041",
+      "trackingCode": "000000000001",
+      "name": "Asha Rao",
+      "age": 34,
+      "department": "General Medicine",
+      "symptoms": "Mild headache since morning",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T19:37:17.595Z",
+      "priority": "Standard",
+      "suggested": "Standard",
+      "priorityReason": "No listed warning sign detected; human review is still required.",
+      "status": "Awaiting triage",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T19:37:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-2",
+      "token": "MED-CAR-1042",
+      "trackingCode": "000000000002",
+      "name": "Dev Shah",
+      "age": 61,
+      "department": "Cardiology",
+      "symptoms": "Chest pain while walking",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T19:30:17.595Z",
+      "priority": "Urgent",
+      "suggested": "Urgent",
+      "priorityReason": "Example warning sign detected; nurse review required.",
+      "status": "Waiting",
+      "reviewed": true,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T19:30:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-3",
+      "token": "MED-PED-1043",
+      "trackingCode": "000000000003",
+      "name": "Mira Nair",
+      "age": 8,
+      "department": "Pediatrics",
+      "symptoms": "Fever for one day",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T19:23:17.595Z",
+      "priority": "Standard",
+      "suggested": "Standard",
+      "priorityReason": "No listed warning sign detected; human review is still required.",
+      "status": "Awaiting triage",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T19:23:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-4",
+      "token": "MED-GEN-1044",
+      "trackingCode": "000000000004",
+      "name": "Kabir Das",
+      "age": 45,
+      "department": "General Medicine",
+      "symptoms": "Severe breathing difficulty",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T19:16:17.595Z",
+      "priority": "Emergency",
+      "suggested": "Emergency",
+      "priorityReason": "Demonstration warning: Possible severe breathing difficulty. This limited list cannot identify every emergency.",
+      "status": "Emergency escalation",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T19:16:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-5",
+      "token": "MED-GEN-1045",
+      "trackingCode": "000000000005",
+      "name": "Tara Iyer",
+      "age": 28,
+      "department": "General Medicine",
+      "symptoms": "Seasonal cough",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T19:09:17.595Z",
+      "priority": "Standard",
+      "suggested": "Standard",
+      "priorityReason": "No listed warning sign detected; human review is still required.",
+      "status": "Awaiting triage",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T19:09:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-6",
+      "token": "MED-CAR-1046",
+      "trackingCode": "000000000006",
+      "name": "Noah Joseph",
+      "age": 52,
+      "department": "Cardiology",
+      "symptoms": "Routine blood pressure follow-up",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T19:02:17.595Z",
+      "priority": "Standard",
+      "suggested": "Standard",
+      "priorityReason": "No listed warning sign detected; human review is still required.",
+      "status": "Awaiting triage",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T19:02:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-7",
+      "token": "MED-GEN-1047",
+      "trackingCode": "000000000007",
+      "name": "Leela Menon",
+      "age": 72,
+      "department": "General Medicine",
+      "symptoms": "Dizziness, feeling faint",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T18:55:17.595Z",
+      "priority": "Urgent",
+      "suggested": "Urgent",
+      "priorityReason": "Example warning sign detected; nurse review required.",
+      "status": "Waiting",
+      "reviewed": true,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T18:55:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-8",
+      "token": "MED-PED-1048",
+      "trackingCode": "000000000008",
+      "name": "Arjun Patel",
+      "age": 19,
+      "department": "Pediatrics",
+      "symptoms": "Sore throat",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T18:48:17.595Z",
+      "priority": "Standard",
+      "suggested": "Standard",
+      "priorityReason": "No listed warning sign detected; human review is still required.",
+      "status": "Awaiting triage",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T18:48:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-9",
+      "token": "MED-GEN-1049",
+      "trackingCode": "000000000009",
+      "name": "Sara Khan",
+      "age": 40,
+      "department": "General Medicine",
+      "symptoms": "Stomach discomfort",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T18:41:17.595Z",
+      "priority": "Standard",
+      "suggested": "Standard",
+      "priorityReason": "No listed warning sign detected; human review is still required.",
+      "status": "Awaiting triage",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T18:41:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-10",
+      "token": "MED-CAR-1050",
+      "trackingCode": "00000000000A",
+      "name": "Ravi Kumar",
+      "age": 66,
+      "department": "Cardiology",
+      "symptoms": "Medication review",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T18:34:17.595Z",
+      "priority": "Standard",
+      "suggested": "Standard",
+      "priorityReason": "No listed warning sign detected; human review is still required.",
+      "status": "Awaiting triage",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T18:34:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-11",
+      "token": "MED-GEN-1051",
+      "trackingCode": "00000000000B",
+      "name": "Nia Bose",
+      "age": 31,
+      "department": "General Medicine",
+      "symptoms": "Back pain",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T18:27:17.595Z",
+      "priority": "Standard",
+      "suggested": "Standard",
+      "priorityReason": "No listed warning sign detected; human review is still required.",
+      "status": "Awaiting triage",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T18:27:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-12",
+      "token": "MED-PED-1052",
+      "trackingCode": "00000000000C",
+      "name": "Omar Ali",
+      "age": 15,
+      "department": "Pediatrics",
+      "symptoms": "Earache",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T18:20:17.595Z",
+      "priority": "Standard",
+      "suggested": "Standard",
+      "priorityReason": "No listed warning sign detected; human review is still required.",
+      "status": "Awaiting triage",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T18:20:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-13",
+      "token": "MED-GEN-1053",
+      "trackingCode": "00000000000D",
+      "name": "Vikram Sen",
+      "age": 58,
+      "department": "General Medicine",
+      "symptoms": "Fatigue for a week",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T18:13:17.595Z",
+      "priority": "Standard",
+      "suggested": "Standard",
+      "priorityReason": "No listed warning sign detected; human review is still required.",
+      "status": "Awaiting triage",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T18:13:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-14",
+      "token": "MED-GEN-1054",
+      "trackingCode": "00000000000E",
+      "name": "Anya Roy",
+      "age": 24,
+      "department": "General Medicine",
+      "symptoms": "Minor skin rash",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T18:06:17.595Z",
+      "priority": "Standard",
+      "suggested": "Standard",
+      "priorityReason": "No listed warning sign detected; human review is still required.",
+      "status": "Awaiting triage",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T18:06:17.595Z"
+        }
+      ]
+    },
+    {
+      "id": "demo-15",
+      "token": "MED-CAR-1055",
+      "trackingCode": "00000000000F",
+      "name": "Ishaan Gupta",
+      "age": 49,
+      "department": "Cardiology",
+      "symptoms": "Follow-up consultation",
+      "duration": "Demo record",
+      "history": "",
+      "arrival": "2026-10-23T17:59:17.595Z",
+      "priority": "Standard",
+      "suggested": "Standard",
+      "priorityReason": "No listed warning sign detected; human review is still required.",
+      "status": "Awaiting triage",
+      "reviewed": false,
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T17:59:17.595Z"
+        }
+      ]
+    }
+  ],
+  "departments": [
+    "General Medicine",
+    "Cardiology",
+    "Pediatrics"
+  ],
+  "staff": [
+    {
+      "name": "Dr. Meera Shah",
+      "department": "General Medicine",
+      "available": true,
+      "role": "Doctor"
+    },
+    {
+      "name": "Dr. Arjun Rao",
+      "department": "Cardiology",
+      "available": true,
+      "role": "Doctor"
+    },
+    {
+      "name": "Dr. Sana Iyer",
+      "department": "Pediatrics",
+      "available": true,
+      "role": "Doctor"
+    },
+    {
+      "name": "Nurse Priya",
+      "department": "All departments",
+      "available": true,
+      "role": "Triage nurse"
+    }
+  ],
+  "metrics": {
+    "consultationMinutes": 18,
+    "targetMinutes": 60
+  },
+  "audit": [
+    {
+      "at": "2026-10-23T19:44:17.596Z",
+      "actor": "Demo seed",
+      "action": "Demo dataset loaded",
+      "token": "—",
+      "reason": "Fictional records"
+    }
+  ],
+  "analytics": {
+    "baseline": {
+      "avg": 8,
+      "median": 0,
+      "withinTarget": 100
+    },
+    "priority": {
+      "avg": 8,
+      "median": 0,
+      "withinTarget": 100
+    },
+    "sampleSize": 14,
+    "consultationMinutes": 18,
+    "targetMinutes": 60,
+    "note": "Simulated from the 14 fictional demo patients, using arrival timestamps, urgency categories, one available doctor per department, and 18-minute consultations. These are illustrative estimates, not measured clinical outcomes."
+  }
+}

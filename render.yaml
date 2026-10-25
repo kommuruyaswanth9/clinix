@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: clinixflow
+    runtime: node
+    buildCommand: npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 20

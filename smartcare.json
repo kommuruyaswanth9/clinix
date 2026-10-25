@@ -1,0 +1,533 @@
+{
+  "patients": [
+    {
+      "id": "r1",
+      "registrationId": "REG-01001",
+      "token": "R-001",
+      "pathway": "routine",
+      "name": "Asha Rao",
+      "age": 34,
+      "gender": "Female",
+      "email": "r001@clinixflow.test",
+      "phone": "9000000001",
+      "vitals": {
+        "temperature": 36.8,
+        "bpSystolic": 118,
+        "bpDiastolic": 76,
+        "bloodSugar": 96
+      },
+      "department": "General Medicine",
+      "symptoms": "Mild headache since morning",
+      "duration": "Initial record",
+      "consultationMinutes": 7,
+      "arrival": "2026-10-24T23:00:45.063Z",
+      "status": "Waiting",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-24T23:00:45.063Z"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "registrationId": "REG-01002",
+      "token": "R-002",
+      "pathway": "routine",
+      "name": "Tara Iyer",
+      "age": 28,
+      "gender": "Female",
+      "email": "r002@clinixflow.test",
+      "phone": "9000000002",
+      "vitals": {
+        "temperature": 36.8,
+        "bpSystolic": 118,
+        "bpDiastolic": 76,
+        "bloodSugar": 96
+      },
+      "department": "General Medicine",
+      "symptoms": "Seasonal cough",
+      "duration": "Initial record",
+      "consultationMinutes": 8,
+      "arrival": "2026-10-24T23:08:45.063Z",
+      "status": "Waiting",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-24T23:08:45.063Z"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "registrationId": "REG-01003",
+      "token": "R-003",
+      "pathway": "routine",
+      "name": "Nia Bose",
+      "age": 31,
+      "gender": "Female",
+      "email": "r003@clinixflow.test",
+      "phone": "9000000003",
+      "vitals": {
+        "temperature": 36.8,
+        "bpSystolic": 118,
+        "bpDiastolic": 76,
+        "bloodSugar": 96
+      },
+      "department": "General Medicine",
+      "symptoms": "Back pain",
+      "duration": "Initial record",
+      "consultationMinutes": 9,
+      "arrival": "2026-10-24T23:22:45.063Z",
+      "status": "Waiting",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-24T23:22:45.063Z"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "registrationId": "REG-01004",
+      "token": "R-004",
+      "pathway": "routine",
+      "name": "Dev Shah",
+      "age": 61,
+      "gender": "Male",
+      "email": "r004@clinixflow.test",
+      "phone": "9000000004",
+      "vitals": {
+        "temperature": 36.8,
+        "bpSystolic": 118,
+        "bpDiastolic": 76,
+        "bloodSugar": 96
+      },
+      "department": "Cardiology",
+      "symptoms": "Routine cardiac follow-up",
+      "duration": "Initial record",
+      "consultationMinutes": 10,
+      "arrival": "2026-10-24T23:14:45.063Z",
+      "status": "Waiting",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-24T23:14:45.063Z"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "registrationId": "REG-01005",
+      "token": "R-005",
+      "pathway": "routine",
+      "name": "Ravi Kumar",
+      "age": 66,
+      "gender": "Male",
+      "email": "r005@clinixflow.test",
+      "phone": "9000000005",
+      "vitals": {
+        "temperature": 36.8,
+        "bpSystolic": 118,
+        "bpDiastolic": 76,
+        "bloodSugar": 96
+      },
+      "department": "Cardiology",
+      "symptoms": "Medication review",
+      "duration": "Initial record",
+      "consultationMinutes": 5,
+      "arrival": "2026-10-24T23:38:45.063Z",
+      "status": "Waiting",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-24T23:38:45.063Z"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "registrationId": "REG-01006",
+      "token": "R-006",
+      "pathway": "routine",
+      "name": "Mira Nair",
+      "age": 8,
+      "gender": "Female",
+      "email": "r006@clinixflow.test",
+      "phone": "9000000006",
+      "vitals": {
+        "temperature": 36.8,
+        "bpSystolic": 118,
+        "bpDiastolic": 76,
+        "bloodSugar": 96
+      },
+      "department": "Pediatrics",
+      "symptoms": "Fever for one day",
+      "duration": "Initial record",
+      "consultationMinutes": 6,
+      "arrival": "2026-10-24T23:30:45.063Z",
+      "status": "Waiting",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-24T23:30:45.063Z"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "registrationId": "REG-01007",
+      "token": "R-007",
+      "pathway": "routine",
+      "name": "Arjun Patel",
+      "age": 19,
+      "gender": "Male",
+      "email": "r007@clinixflow.test",
+      "phone": "9000000007",
+      "vitals": {
+        "temperature": 36.8,
+        "bpSystolic": 118,
+        "bpDiastolic": 76,
+        "bloodSugar": 96
+      },
+      "department": "Pediatrics",
+      "symptoms": "Sore throat",
+      "duration": "Initial record",
+      "consultationMinutes": 7,
+      "arrival": "2026-10-24T23:44:45.063Z",
+      "status": "In consultation",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-24T23:44:45.063Z"
+        }
+      ],
+      "consultationStartedAt": "2026-10-25T00:14:45.063Z"
+    },
+    {
+      "id": "e1",
+      "registrationId": "REG-01008",
+      "token": "E-001",
+      "pathway": "emergency",
+      "name": "Kabir Das",
+      "age": 45,
+      "gender": "Male",
+      "email": "e001@clinixflow.test",
+      "phone": "9000000008",
+      "vitals": {
+        "temperature": 36.8,
+        "bpSystolic": 118,
+        "bpDiastolic": 76,
+        "bloodSugar": 96
+      },
+      "department": "General Medicine",
+      "symptoms": "Severe breathing difficulty",
+      "duration": "Initial record",
+      "consultationMinutes": 6,
+      "arrival": "2026-10-24T23:45:45.063Z",
+      "status": "Awaiting assessment",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-24T23:45:45.063Z"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "registrationId": "REG-01009",
+      "token": "E-002",
+      "pathway": "emergency",
+      "name": "Leela Menon",
+      "age": 72,
+      "gender": "Female",
+      "email": "e002@clinixflow.test",
+      "phone": "9000000009",
+      "vitals": {
+        "temperature": 36.8,
+        "bpSystolic": 118,
+        "bpDiastolic": 76,
+        "bloodSugar": 96
+      },
+      "department": "General Medicine",
+      "symptoms": "Dizziness and faint feeling",
+      "duration": "Initial record",
+      "consultationMinutes": 7,
+      "arrival": "2026-10-24T23:56:45.063Z",
+      "status": "In emergency care",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-24T23:56:45.063Z"
+        }
+      ]
+    },
+    {
+      "id": "h1",
+      "registrationId": "REG-H0001",
+      "token": "R-H001",
+      "pathway": "routine",
+      "name": "Historical R-H001",
+      "age": 40,
+      "gender": "Other",
+      "email": "rh001@clinixflow.test",
+      "phone": "9000000099",
+      "vitals": {
+        "temperature": 36.7,
+        "bpSystolic": 120,
+        "bpDiastolic": 78,
+        "bloodSugar": 98
+      },
+      "department": "Cardiology",
+      "symptoms": "Recorded visit",
+      "duration": "Completed record",
+      "consultationMinutes": 7,
+      "arrival": "2026-10-24T05:45:00.000Z",
+      "status": "Completed",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-24T05:45:00.000Z"
+        },
+        {
+          "type": "In consultation",
+          "at": "2026-10-24T05:50:00.000Z"
+        },
+        {
+          "type": "Completed",
+          "at": "2026-10-24T06:20:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "h2",
+      "registrationId": "REG-H0002",
+      "token": "R-H002",
+      "pathway": "routine",
+      "name": "Historical R-H002",
+      "age": 40,
+      "gender": "Other",
+      "email": "rh002@clinixflow.test",
+      "phone": "9000000099",
+      "vitals": {
+        "temperature": 36.7,
+        "bpSystolic": 120,
+        "bpDiastolic": 78,
+        "bloodSugar": 98
+      },
+      "department": "General Medicine",
+      "symptoms": "Recorded visit",
+      "duration": "Completed record",
+      "consultationMinutes": 8,
+      "arrival": "2026-10-24T06:45:00.000Z",
+      "status": "Completed",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-24T06:45:00.000Z"
+        },
+        {
+          "type": "In consultation",
+          "at": "2026-10-24T06:50:00.000Z"
+        },
+        {
+          "type": "Completed",
+          "at": "2026-10-24T07:20:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "h3",
+      "registrationId": "REG-H0003",
+      "token": "E-H001",
+      "pathway": "emergency",
+      "name": "Historical E-H001",
+      "age": 40,
+      "gender": "Other",
+      "email": "eh001@clinixflow.test",
+      "phone": "9000000099",
+      "vitals": {
+        "temperature": 36.7,
+        "bpSystolic": 120,
+        "bpDiastolic": 78,
+        "bloodSugar": 98
+      },
+      "department": "General Medicine",
+      "symptoms": "Recorded visit",
+      "duration": "Completed record",
+      "consultationMinutes": 6,
+      "arrival": "2026-10-24T07:45:00.000Z",
+      "status": "Completed",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-24T07:45:00.000Z"
+        },
+        {
+          "type": "In emergency care",
+          "at": "2026-10-24T07:50:00.000Z"
+        },
+        {
+          "type": "Completed",
+          "at": "2026-10-24T08:20:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "h4",
+      "registrationId": "REG-H0004",
+      "token": "R-H003",
+      "pathway": "routine",
+      "name": "Historical R-H003",
+      "age": 40,
+      "gender": "Other",
+      "email": "rh003@clinixflow.test",
+      "phone": "9000000099",
+      "vitals": {
+        "temperature": 36.7,
+        "bpSystolic": 120,
+        "bpDiastolic": 78,
+        "bloodSugar": 98
+      },
+      "department": "Pediatrics",
+      "symptoms": "Recorded visit",
+      "duration": "Completed record",
+      "consultationMinutes": 9,
+      "arrival": "2026-10-23T08:45:00.000Z",
+      "status": "Completed",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T08:45:00.000Z"
+        },
+        {
+          "type": "In consultation",
+          "at": "2026-10-23T08:50:00.000Z"
+        },
+        {
+          "type": "Completed",
+          "at": "2026-10-23T09:20:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "h5",
+      "registrationId": "REG-H0005",
+      "token": "E-H002",
+      "pathway": "emergency",
+      "name": "Historical E-H002",
+      "age": 40,
+      "gender": "Other",
+      "email": "eh002@clinixflow.test",
+      "phone": "9000000099",
+      "vitals": {
+        "temperature": 36.7,
+        "bpSystolic": 120,
+        "bpDiastolic": 78,
+        "bloodSugar": 98
+      },
+      "department": "Cardiology",
+      "symptoms": "Recorded visit",
+      "duration": "Completed record",
+      "consultationMinutes": 7,
+      "arrival": "2026-10-23T04:45:00.000Z",
+      "status": "Completed",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-23T04:45:00.000Z"
+        },
+        {
+          "type": "In emergency care",
+          "at": "2026-10-23T04:50:00.000Z"
+        },
+        {
+          "type": "Completed",
+          "at": "2026-10-23T05:20:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "h6",
+      "registrationId": "REG-H0006",
+      "token": "E-H003",
+      "pathway": "emergency",
+      "name": "Historical E-H003",
+      "age": 40,
+      "gender": "Other",
+      "email": "eh003@clinixflow.test",
+      "phone": "9000000099",
+      "vitals": {
+        "temperature": 36.7,
+        "bpSystolic": 120,
+        "bpDiastolic": 78,
+        "bloodSugar": 98
+      },
+      "department": "General Medicine",
+      "symptoms": "Recorded visit",
+      "duration": "Completed record",
+      "consultationMinutes": 8,
+      "arrival": "2026-10-22T05:45:00.000Z",
+      "status": "Completed",
+      "events": [
+        {
+          "type": "Registered",
+          "at": "2026-10-22T05:45:00.000Z"
+        },
+        {
+          "type": "In emergency care",
+          "at": "2026-10-22T05:50:00.000Z"
+        },
+        {
+          "type": "Completed",
+          "at": "2026-10-22T06:20:00.000Z"
+        }
+      ]
+    }
+  ],
+  "departments": [
+    "General Medicine",
+    "Cardiology",
+    "Pediatrics"
+  ],
+  "staff": [
+    {
+      "name": "Dr. Meera Shah",
+      "department": "General Medicine",
+      "available": true,
+      "role": "Doctor"
+    },
+    {
+      "name": "Dr. Arjun Rao",
+      "department": "Cardiology",
+      "available": true,
+      "role": "Doctor"
+    },
+    {
+      "name": "Dr. Sana Iyer",
+      "department": "Pediatrics",
+      "available": true,
+      "role": "Doctor"
+    }
+  ],
+  "delays": [],
+  "activity": [
+    {
+      "id": "seed-1",
+      "at": "2026-10-25T00:20:45.063Z",
+      "action": "Queue data initialized",
+      "token": "—",
+      "registrationId": "—",
+      "note": "Routine and emergency pathways are loaded separately."
+    }
+  ],
+  "report": {
+    "routineRegistered": 10,
+    "routineWaiting": 6,
+    "routineCompleted": 3,
+    "emergencyRegistered": 5,
+    "averageRoutineEta": 21,
+    "activeDelayCount": 0,
+    "activeDelayMinutes": 0
+  }
+}

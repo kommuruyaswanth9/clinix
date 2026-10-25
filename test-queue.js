@@ -1,0 +1,9 @@
+const test=require('node:test'),assert=require('node:assert/strict');
+const {routineQueue,estimateRoutineWait,consultationMinutes,remainingConsultationMinutes}=require('./lib/queue');
+const {initial}=require('./seed');
+test('routine queue excludes emergency and completed records',()=>{const d=initial(),q=routineQueue(d.patients);assert.equal(q.every(p=>p.pathway==='routine'),true);assert.equal(q.some(p=>p.status==='Completed'),false)});
+test('active routine tokens have unique overall positions',()=>{const d=initial(),q=routineQueue(d.patients);assert.equal(new Set(q.map((p,i)=>i+1)).size,q.length)});
+test('each patient receives a stable 5–10 minute consultation duration',()=>{const d=initial();assert.equal(d.patients.every(p=>consultationMinutes(p)>=5&&consultationMinutes(p)<=10),true);assert.notEqual(consultationMinutes(d.patients[0]),consultationMinutes(d.patients[1]))});
+test('ETA follows queue order and real elapsed consultation time',()=>{const d=initial(),q=routineQueue(d.patients),active=q[0],waiting=q[1],now=Date.parse(active.consultationStartedAt)+2*60000;assert.equal(remainingConsultationMinutes(active,now),consultationMinutes(active)-2);assert.equal(estimateRoutineWait(q,waiting,d.staff,[],now),consultationMinutes(active)-2)});
+test('affected operational delay adds to ETA',()=>{const d=initial(),q=routineQueue(d.patients),p=q.find(p=>p.token==='R-002'),base=estimateRoutineWait(q,p,d.staff,[]),after=estimateRoutineWait(q,p,d.staff,[{active:true,department:'General Medicine',minutes:12}]);assert.equal(after,base+12)});
+test('seed includes historical completed records for calendar reports',()=>{const d=initial();assert.equal(d.patients.filter(p=>p.token.startsWith('R-H')||p.token.startsWith('E-H')).every(p=>p.status==='Completed'),true)});
